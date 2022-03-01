@@ -1,0 +1,4020 @@
+# run with command: sudo ./deepstream-test4-app -i /opt/nvidia/deepstream/deepstream-6.0/samples/streams/sample_720p.h264 --conn-str="192.168.0.103;9092;tx2" --no-display  -p /opt/nvidia/deepstream/deepstream-6.0/lib/libnvds_kafka_proto.so
+
+{
+  "messageid" : "6b158bf3-9a52-4b7f-92dc-a72b3c89272e",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:06.381Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.78082966804504395
+    },
+    "bbox" : {
+      "topleftx" : 613,
+      "toplefty" : 489,
+      "bottomrightx" : 716,
+      "bottomrighty" : 570
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "bd6f5e82-6d04-450e-8bdb-54effda43660",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "a52a284c-e8f2-4b52-ab88-5b50265b4734",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:07.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90465056896209717
+    },
+    "bbox" : {
+      "topleftx" : 951,
+      "toplefty" : 487,
+      "bottomrightx" : 1130,
+      "bottomrighty" : 575
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "a6fa21da-fdbf-4dd6-a3d9-262f10f672e2",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "c244d57c-6fae-427d-9315-19e2bba1f841",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:08.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.83373111486434937
+    },
+    "bbox" : {
+      "topleftx" : 1531,
+      "toplefty" : 496,
+      "bottomrightx" : 1618,
+      "bottomrighty" : 536
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "5d0b6910-e707-4bae-9dec-5d58c9ef3b91",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "37766662-69af-41b1-ae04-e85c10c7e58e",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:09.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.85403454303741455
+    },
+    "bbox" : {
+      "topleftx" : 575,
+      "toplefty" : 478,
+      "bottomrightx" : 657,
+      "bottomrighty" : 546
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "3d603eec-e05b-4b0f-b6da-a836984b28a5",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "04b6211f-79b4-43f6-aabb-e28e06dc56bb",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:10.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.84984660148620605
+    },
+    "bbox" : {
+      "topleftx" : 771,
+      "toplefty" : 423,
+      "bottomrightx" : 1353,
+      "bottomrighty" : 874
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "82d3367b-2a48-458f-b5fc-e17b61f135a9",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "67dca92d-c244-4bf1-adca-b6e7d23a6cad",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:11.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.89588761329650879
+    },
+    "bbox" : {
+      "topleftx" : 797,
+      "toplefty" : 464,
+      "bottomrightx" : 979,
+      "bottomrighty" : 580
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "bae496fd-8e9f-4324-841a-a68dee9f61a7",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "03f72669-38b1-4455-84ff-81fa908999b6",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:12.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.91610962152481079
+    },
+    "bbox" : {
+      "topleftx" : 1172,
+      "toplefty" : 476,
+      "bottomrightx" : 1261,
+      "bottomrighty" : 517
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "7ddf115f-c59a-4acc-bb75-6a325cf680b4",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "2d8846ce-4f02-4f85-a00c-9eab9e5d527f",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:13.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.9427180290222168
+    },
+    "bbox" : {
+      "topleftx" : 1421,
+      "toplefty" : 480,
+      "bottomrightx" : 1535,
+      "bottomrighty" : 530
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "776e844b-2e6e-4114-adb0-43080b4fb16c",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "379e3a2c-2b6f-41f8-9776-09adff732f9f",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:14.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.78547316789627075
+    },
+    "bbox" : {
+      "topleftx" : 645,
+      "toplefty" : 490,
+      "bottomrightx" : 759,
+      "bottomrighty" : 576
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "d6b791cf-bbb8-48c7-8ce2-61e0a384f253",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "e7cba27f-2bee-433c-99e7-d88baa6fe49e",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:15.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.87504148483276367
+    },
+    "bbox" : {
+      "topleftx" : 614,
+      "toplefty" : 485,
+      "bottomrightx" : 696,
+      "bottomrighty" : 547
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "274b1f7d-3468-44f4-82ca-426e13beb61d",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "6b0a2dee-61dc-49b0-a1e3-5dbba6935ad6",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:16.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.91490095853805542
+    },
+    "bbox" : {
+      "topleftx" : 768,
+      "toplefty" : 475,
+      "bottomrightx" : 910,
+      "bottomrighty" : 562
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "145e80e4-3cd3-43fe-a086-51a65809d108",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "ca32fb64-9183-4df4-8d98-65701efe8e61",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:17.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90295243263244629
+    },
+    "bbox" : {
+      "topleftx" : 665,
+      "toplefty" : 486,
+      "bottomrightx" : 822,
+      "bottomrighty" : 600
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "89cf2e3d-0172-408a-af8d-494a87703690",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "003df501-7f2a-45f1-a803-7b0ab85bed6f",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:18.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.69222605228424072
+    },
+    "bbox" : {
+      "topleftx" : 1448,
+      "toplefty" : 481,
+      "bottomrightx" : 1568,
+      "bottomrighty" : 531
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "be281d1a-b445-44ea-b090-36ea5eac69f2",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "6717eb7f-a95b-44d8-a4a0-92a92aa8ebe9",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:19.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.88202202320098877
+    },
+    "bbox" : {
+      "topleftx" : 997,
+      "toplefty" : 473,
+      "bottomrightx" : 1162,
+      "bottomrighty" : 553
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "019b07aa-294f-48ba-b6bb-9519625873e1",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "714a15d0-b0aa-4b37-bfb7-30ea1c0c268d",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:20.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90122741460800171
+    },
+    "bbox" : {
+      "topleftx" : 593,
+      "toplefty" : 482,
+      "bottomrightx" : 647,
+      "bottomrighty" : 525
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "056bc15c-27d7-4849-8158-a190acf3eead",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "c688e6c8-74d1-4927-890e-33fbe41513d4",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:21.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.94292855262756348
+    },
+    "bbox" : {
+      "topleftx" : 1167,
+      "toplefty" : 486,
+      "bottomrightx" : 1402,
+      "bottomrighty" : 583
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "0e2724df-5c1e-41de-9ef6-ab67c52a529a",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "aa90cee6-9038-493d-9776-03aefdf45439",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:22.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.91022670269012451
+    },
+    "bbox" : {
+      "topleftx" : 801,
+      "toplefty" : 478,
+      "bottomrightx" : 879,
+      "bottomrighty" : 535
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "3023bdab-8e07-403b-b4d1-f9b58cafbf8a",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "30676345-a9f2-49d5-9833-a7e0f9c8daa4",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:23.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.86782187223434448
+    },
+    "bbox" : {
+      "topleftx" : 618,
+      "toplefty" : 477,
+      "bottomrightx" : 704,
+      "bottomrighty" : 544
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "451eead6-2cfc-4ca0-9a14-8125954393c0",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "eda7410d-ea47-4da6-84ea-923e4e1564d0",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:24.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.85452079772949219
+    },
+    "bbox" : {
+      "topleftx" : 577,
+      "toplefty" : 489,
+      "bottomrightx" : 631,
+      "bottomrighty" : 526
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "ee7cc7d7-572f-47e8-9bec-0c036079d7c6",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "f308cbb4-1e0f-4dc2-beeb-82d861ca2af7",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:25.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.92944037914276123
+    },
+    "bbox" : {
+      "topleftx" : 594,
+      "toplefty" : 488,
+      "bottomrightx" : 664,
+      "bottomrighty" : 540
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "62ac007c-1197-4b2b-8ac8-c9bf2d9d5385",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "cd24dd6d-b601-4fb7-895a-6f47475ab15a",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:26.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.92576861381530762
+    },
+    "bbox" : {
+      "topleftx" : 700,
+      "toplefty" : 477,
+      "bottomrightx" : 761,
+      "bottomrighty" : 512
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "e08a33b6-52f9-4e79-954c-d49c84e09e18",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "fe0746f4-73a6-4bb3-9457-5d9b0a10b751",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:27.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.87310665845870972
+    },
+    "bbox" : {
+      "topleftx" : 570,
+      "toplefty" : 423,
+      "bottomrightx" : 693,
+      "bottomrighty" : 540
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "22741fad-d251-494e-a1ee-981810e7c4ef",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "f6ab8a8f-0f7f-48f8-995d-a6d096776865",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:28.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.83045667409896851
+    },
+    "bbox" : {
+      "topleftx" : 593,
+      "toplefty" : 399,
+      "bottomrightx" : 749,
+      "bottomrighty" : 565
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "db5c25a5-5ce2-4a58-bd59-3c65976529f8",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "f85a2691-2033-4449-a909-691fd7827a87",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:29.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.97935408353805542
+    },
+    "bbox" : {
+      "topleftx" : 1401,
+      "toplefty" : 488,
+      "bottomrightx" : 1497,
+      "bottomrighty" : 529
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "abbfd8e9-59d6-4a64-b4ab-8419ecc391bc",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "2a9a00f8-88fc-444c-9bf4-37010e716baa",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:30.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.86281466484069824
+    },
+    "bbox" : {
+      "topleftx" : 580,
+      "toplefty" : 483,
+      "bottomrightx" : 650,
+      "bottomrighty" : 537
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "5d4f10bb-319b-4981-b781-754f34989fa3",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "1d1db683-2649-42a4-8305-41ef4004f1f0",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:31.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.91730266809463501
+    },
+    "bbox" : {
+      "topleftx" : 826,
+      "toplefty" : 480,
+      "bottomrightx" : 894,
+      "bottomrighty" : 523
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "1a724327-f3a8-404f-abf5-b4cbf03c5df0",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "edeb0028-6793-4371-a128-7a9f5a78e7c5",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:32.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.96458923816680908
+    },
+    "bbox" : {
+      "topleftx" : 1028,
+      "toplefty" : 484,
+      "bottomrightx" : 1199,
+      "bottomrighty" : 558
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "a26d0e75-4d64-480a-a3e9-8f898cb507ef",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "a239f151-d75c-4eff-b0a7-2efafd769882",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:33.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.8824278712272644
+    },
+    "bbox" : {
+      "topleftx" : 630,
+      "toplefty" : 479,
+      "bottomrightx" : 767,
+      "bottomrighty" : 588
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "6cb7abc8-a531-4700-91da-0d41047314fa",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "7314e5c0-82b6-422a-bc97-70f80fc55fb6",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:34.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90861791372299194
+    },
+    "bbox" : {
+      "topleftx" : 726,
+      "toplefty" : 473,
+      "bottomrightx" : 1185,
+      "bottomrighty" : 801
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "70b5da38-b9aa-44b2-84b1-e743f54b1cd8",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "ba6ff068-5d0d-49e6-8bae-2a5a2215968c",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:35.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90565657615661621
+    },
+    "bbox" : {
+      "topleftx" : 1504,
+      "toplefty" : 493,
+      "bottomrightx" : 1624,
+      "bottomrighty" : 537
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "eed3d223-fd5f-4380-883b-3a8ee2bf72fa",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "d484961c-22db-47b8-85b9-5b121adea607",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:36.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.93415528535842896
+    },
+    "bbox" : {
+      "topleftx" : 705,
+      "toplefty" : 485,
+      "bottomrightx" : 783,
+      "bottomrighty" : 534
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "0a24048e-f41a-42ac-b161-5c0581c83780",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "fcbcdae3-3eec-4bfb-9714-d12d11819de8",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:37.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.92762601375579834
+    },
+    "bbox" : {
+      "topleftx" : 585,
+      "toplefty" : 485,
+      "bottomrightx" : 640,
+      "bottomrighty" : 527
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "06f13d44-f483-4da3-83d5-6b0324b6cab0",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "1b20165c-7d56-44b6-9f06-8b2aca85a702",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:38.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.91243612766265869
+    },
+    "bbox" : {
+      "topleftx" : 694,
+      "toplefty" : 478,
+      "bottomrightx" : 773,
+      "bottomrighty" : 533
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "213d9e55-09c8-4aed-bb93-9d5dbbaf4b30",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "d2be2059-7977-4676-9040-00b6d6a4179e",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:39.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.94397062063217163
+    },
+    "bbox" : {
+      "topleftx" : 1507,
+      "toplefty" : 495,
+      "bottomrightx" : 1628,
+      "bottomrighty" : 537
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "1b8de0d5-4864-4618-99b0-ff3926eaa960",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "67416db1-7f05-497d-8a21-4fe49bdd8724",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:40.323Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90731221437454224
+    },
+    "bbox" : {
+      "topleftx" : 644,
+      "toplefty" : 479,
+      "bottomrightx" : 687,
+      "bottomrighty" : 513
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "38297419-609f-4a32-b072-869d2816c6c7",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "94257e9b-3073-4d9a-bc01-49bb42d3319a",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:41.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90764021873474121
+    },
+    "bbox" : {
+      "topleftx" : 808,
+      "toplefty" : 469,
+      "bottomrightx" : 1017,
+      "bottomrighty" : 593
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "40f371fa-59b5-40cf-a0e6-e16e0834baff",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "e171df87-5c7a-40fa-9bd3-e9ba44fffa21",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:42.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.85812515020370483
+    },
+    "bbox" : {
+      "topleftx" : 881,
+      "toplefty" : 483,
+      "bottomrightx" : 992,
+      "bottomrighty" : 548
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "419627db-7f6b-44f9-8958-994b36226c9a",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "a2131ea6-a37a-4bc1-9371-92ae6e4e09d1",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:43.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.73220908641815186
+    },
+    "bbox" : {
+      "topleftx" : 608,
+      "toplefty" : 480,
+      "bottomrightx" : 712,
+      "bottomrighty" : 565
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "49d3db41-9257-4306-9304-71825c7e6ca6",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "ee286422-824d-4bed-bdde-83818131a839",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:44.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.97557687759399414
+    },
+    "bbox" : {
+      "topleftx" : 1064,
+      "toplefty" : 486,
+      "bottomrightx" : 1247,
+      "bottomrighty" : 570
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "24688a0d-b28f-4c22-8162-e719ec617ceb",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "adc1d968-2538-4979-9b68-318f33848474",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:45.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.87202078104019165
+    },
+    "bbox" : {
+      "topleftx" : 856,
+      "toplefty" : 483,
+      "bottomrightx" : 951,
+      "bottomrighty" : 540
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "e25a0e1d-d357-487c-b61c-8af3c7866b6a",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "e3811028-e61f-4588-bc7b-ff81a120cec1",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:46.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.84959721565246582
+    },
+    "bbox" : {
+      "topleftx" : 552,
+      "toplefty" : 477,
+      "bottomrightx" : 622,
+      "bottomrighty" : 535
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "7ef1a60b-581d-4d68-bf36-9cfa5ffca2dd",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "4d13a8a0-ec8b-4975-ab48-1e266ca01779",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:47.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90363490581512451
+    },
+    "bbox" : {
+      "topleftx" : 1650,
+      "toplefty" : 489,
+      "bottomrightx" : 1840,
+      "bottomrighty" : 556
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "1229eda3-6e84-4bfa-adf2-c6ed60afb3c3",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "93591b54-4502-45e2-9572-94860b80fd07",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:48.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.92468768358230591
+    },
+    "bbox" : {
+      "topleftx" : 1242,
+      "toplefty" : 480,
+      "bottomrightx" : 1340,
+      "bottomrighty" : 521
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "b7315561-cc6f-42ac-ad74-1f5507a82a8c",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "ac8a876e-71d1-4d9e-9fdc-694e2b82181d",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:49.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90226566791534424
+    },
+    "bbox" : {
+      "topleftx" : 1285,
+      "toplefty" : 480,
+      "bottomrightx" : 1384,
+      "bottomrighty" : 520
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "e7751c9d-0a49-4899-b146-fa965fa5ed8b",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "4fd7c984-4f68-49e9-bc3c-85f49b46b9aa",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:50.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.79802942276000977
+    },
+    "bbox" : {
+      "topleftx" : 672,
+      "toplefty" : 501,
+      "bottomrightx" : 831,
+      "bottomrighty" : 614
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "d49922a5-90d1-498a-80f8-f6bf0b59d271",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "828f6610-cb29-4be1-8822-4611840af6d0",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:51.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.90498697757720947
+    },
+    "bbox" : {
+      "topleftx" : 1196,
+      "toplefty" : 476,
+      "bottomrightx" : 1346,
+      "bottomrighty" : 519
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "61a9996a-74dc-44d9-a8aa-ffbe109b1423",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "5bc7a1db-4e73-4cda-9f0d-97ae3b8f1b5e",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:52.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.93581736087799072
+    },
+    "bbox" : {
+      "topleftx" : 1536,
+      "toplefty" : 495,
+      "bottomrightx" : 1677,
+      "bottomrighty" : 543
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "b3ad2355-dc10-4223-b50a-d78c87d85cff",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "121a41d4-406c-4afd-b5cf-45a28cf72039",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:53.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.9469902515411377
+    },
+    "bbox" : {
+      "topleftx" : 1306,
+      "toplefty" : 485,
+      "bottomrightx" : 1396,
+      "bottomrighty" : 521
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "a97dc80b-2591-4afc-ad29-0479ee15cc31",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
+{
+  "messageid" : "2f26d680-530a-4fe0-b42b-56f19c0ef4ae",
+  "mdsversion" : "1.0",
+  "@timestamp" : "2022-02-28T08:06:54.322Z",
+  "place" : {
+    "id" : "1",
+    "name" : "XYZ",
+    "type" : "garage",
+    "location" : {
+      "lat" : 30.32,
+      "lon" : -40.549999999999997,
+      "alt" : 100.0
+    },
+    "aisle" : {
+      "id" : "walsh",
+      "name" : "lane1",
+      "level" : "P2",
+      "coordinate" : {
+        "x" : 1.0,
+        "y" : 2.0,
+        "z" : 3.0
+      }
+    }
+  },
+  "sensor" : {
+    "id" : "CAMERA_ID",
+    "type" : "Camera",
+    "description" : "\"Entrance of Garage Right Lane\"",
+    "location" : {
+      "lat" : 45.293701446999997,
+      "lon" : -75.830391449900006,
+      "alt" : 48.155747933800001
+    },
+    "coordinate" : {
+      "x" : 5.2000000000000002,
+      "y" : 10.1,
+      "z" : 11.199999999999999
+    }
+  },
+  "analyticsModule" : {
+    "id" : "XYZ",
+    "description" : "\"Vehicle Detection and License Plate Recognition\"",
+    "source" : "OpenALR",
+    "version" : "1.0"
+  },
+  "object" : {
+    "id" : "18446744073709551615",
+    "speed" : 0.0,
+    "direction" : 0.0,
+    "orientation" : 0.0,
+    "vehicle" : {
+      "type" : "sedan",
+      "make" : "Bugatti",
+      "model" : "M",
+      "color" : "blue",
+      "licenseState" : "CA",
+      "license" : "XX1234",
+      "confidence" : 0.91429072618484497
+    },
+    "bbox" : {
+      "topleftx" : 1577,
+      "toplefty" : 487,
+      "bottomrightx" : 1751,
+      "bottomrighty" : 553
+    },
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0,
+      "alt" : 0.0
+    },
+    "coordinate" : {
+      "x" : 0.0,
+      "y" : 0.0,
+      "z" : 0.0
+    }
+  },
+  "event" : {
+    "id" : "ea5c6fa5-5807-4c55-a2fa-9688d6f4dfbc",
+    "type" : "moving"
+  },
+  "videoPath" : ""
+}
